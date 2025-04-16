@@ -1,0 +1,26 @@
+{
+	"manifest_version":3,
+
+	"name":"Big Shorts Player",
+	"description":"Redirects YouTube Shorts to the standard (big) player.",
+	"version":"0.0.1",
+
+	"icons":
+	{
+		"48":"icon@48px.png",
+		"96":"icon@96px.png"
+	},
+
+	"permissions":
+	[
+		"webRequest",
+		"webRequestBlocking",
+		"webNavigation",
+		"tabs"
+	],
+
+	"background":
+	{
+		"scripts":[ "active.js" ]
+	}
+}
