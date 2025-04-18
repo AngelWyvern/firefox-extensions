@@ -1,0 +1,39 @@
+{
+	"manifest_version":3,
+
+	"name":"View Raw Content",
+	"description":"Inspect HTTP responses as raw content in the browser.",
+	"version":"0.0.1",
+
+	"browser_specific_settings":
+	{
+		"gecko":{ "id":"ViewRawContent@AngelWyvern.github.io" }
+	},
+
+	"icons":
+	{
+		"48":"icon@48px.png",
+		"96":"icon@96px.png"
+	},
+
+	"permissions":
+	[
+		"menus"
+	],
+
+	"host_permissions":
+	[
+		"*://*/*"
+	],
+
+	"background":
+	{
+		"scripts":[ "active.js" ]
+	},
+
+	"action":
+	{
+		"default_popup":"popup.html",
+		"default_icon": { "16":"icon@16px.svg" }
+	}
+}
