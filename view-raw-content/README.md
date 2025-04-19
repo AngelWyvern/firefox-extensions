@@ -14,3 +14,13 @@ I first made this as a [Chrome extension](https://github.com/AngelWyvern/view-ra
 | All video files | `video/*`                 |
 
 Any unrecognized filetypes will fall back to being read as a text file.
+
+### Screenshots
+
+<sub>Using the toolbar icon to open raw JSON content</sub>
+
+![](screenshots/ss1.png)
+
+<sub>Viewing raw JSON content</sub>
+
+![](screenshots/ss2.png)
